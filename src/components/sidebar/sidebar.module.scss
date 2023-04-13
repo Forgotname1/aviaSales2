@@ -1,0 +1,42 @@
+.sidebar {
+  width: 232px;
+  height: 252px;
+  background-color: white;
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+  &_title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    height: 40px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  &_item {
+    width: 232px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    &:hover {
+      cursor: pointer;
+      background-color: #f1fcff;
+    }
+  }
+
+  &_checkbox {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}
