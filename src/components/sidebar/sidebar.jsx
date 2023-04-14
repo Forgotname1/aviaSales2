@@ -1,6 +1,8 @@
-import styles from './sidebar.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
+
 import { changeCheckbox } from '../../store/appSlice';
+
+import styles from './sidebar.module.scss';
 
 function SideBar() {
   const checkboxes = useSelector((state) => state.checkboxes);
